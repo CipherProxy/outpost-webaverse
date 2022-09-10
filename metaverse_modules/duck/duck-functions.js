@@ -2,7 +2,8 @@
 import interfaceFactory from '@psychedelic/dab-js/dist/idls/dip_721_v2.did.js';
 
 export const plugLogin = async () => {
-    const canisterId = "q47yz-iyaaa-aaaam-qambq-cai";
+    // const canisterId = "q47yz-iyaaa-aaaam-qambq-cai";
+    const canisterId = "6hgw2-nyaaa-aaaai-abkqq-cai";
     const whitelist = [canisterId];
     const standard = "DIP721v2";
     console.log('logging in...');
