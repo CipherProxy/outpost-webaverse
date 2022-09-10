@@ -2,18 +2,16 @@
   "name": "webaverse-app",
   "version": "0.0.1",
   "description": "",
-  "main": "index.mjs",
+  "type": "module",
   "scripts": {
-    "start": "npm run prod",
-    "dev": "node index.mjs",
-    "prod": "sudo $(which node) index.mjs -p",
+    "start": "vite",
     "build": "vite build",
-    "serve": "vite preview",
-    "setup:test": "cd test && npm i",
-    "test": "cd test && npm run test",
-    "start-pm2": "pm2-runtime index.mjs -p --secret $PM2_SECRET_KEY --public $PM2_PUBLIC_KEY --no-auto-exit --instances 1 --restart-delay 60000"
+    "serve": "vite preview"
   },
   "dependencies": {
+    "@connect2ic/core": "^0.1.1",
+    "@connect2ic/react": "^0.1.0",
+    "@dfinity/agent": "^0.11.3",
     "@babel/preset-react": "^7.17.12",
     "@pixiv/three-vrm": "./packages/three-vrm",
     "@react-three/fiber": "^7.0.29",
@@ -60,6 +58,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-standard": "^4.1.0",
-    "vite": "^2.9.12"
+    "vite": "^2.9.12",
+    "buffer": "^6.0.3"
   }
 }

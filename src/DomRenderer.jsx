@@ -26,7 +26,6 @@ const _getFov = () => camera.projectionMatrix.elements[ 5 ] * (window.innerHeigh
 
 function epsilon(value) {
   return value;
-  // return Math.abs(value) < 1e-10 ? 0 : value;
 }
 function getObjectCSSMatrix( matrix, cameraCSSMatrix ) {
   var elements = matrix.elements;
@@ -237,7 +236,7 @@ const DomRendererChildren = ({
     };
   }, [epoch]);
 
-  return <>
+  return <React.Fragment>
     {domRenderEngine.doms.map((dom, i) => {
       return (
         <DomRendererChild
@@ -249,7 +248,7 @@ const DomRendererChildren = ({
         />
       );
     })}
-  </>
+  </React.Fragment>
 };
 
 const DomRenderer = props => {
@@ -285,10 +284,7 @@ const DomRenderer = props => {
         top: 0,
         width: `${innerWidth}px`,
         height: `${innerHeight}px`,
-        perspective: `${fov}px`,
-        // pointerEvents: 'none',
-        // userSelect: 'none',
-        // zIndex: -1,
+        perspective: `${fov}px`
       }}
       ref={iframeContainerRef}
     >

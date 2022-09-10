@@ -1,0 +1,73 @@
+{
+  "objects": [
+    {
+      "type": "application/spawnpoint",
+      "content": {
+        "position": [-25, 1.5, -3],
+        "quaternion": [0, 0.0,0, 0.0]
+      }
+    },
+    {
+      "type": "application/light",
+      "content": {
+        "lightType": "ambient",
+        "args": [[255, 255, 255], 0.75]
+      }
+    },
+    {
+      "type": "application/light",
+      "content": {
+        "lightType": "point",
+        "args": [[240, 240, 240], 1.75],
+        "position": [-3, -1.5 ,-3],
+        "quaternion": [0, 0, 0, 0],
+        "shadow": [40, 2048, 0.1, 2048, 0, 0.2]
+      }
+    },
+    {
+    "type": "application/rendersettings",
+    "content": {
+      "hdr": {
+        "adaptive": true,
+        "resolution": 256,
+        "adaptionRate": 100,
+        "maxLuminance": 8,
+        "minLuminance": 0,
+        "middleGrey": 3
+        }
+      }
+    },
+    {
+      "start_url": "https://webaverse.github.io/night-skybox/",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+        {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "start_url": "https://webaverse.github.io/street-base/"
+    },
+    {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "start_url": "https://webaverse.github.io/street/"
+    },
+    {
+      "start_url": "../metaverse_modules/duck/",
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

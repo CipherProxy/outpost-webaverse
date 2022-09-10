@@ -1,0 +1,34 @@
+{
+  "name": "duck",
+  "version": "1.0.0",
+  "description": "User interactable template for use in webaverse",
+  "files":["dist"],
+  "main":"./duck.js",
+  "module":"./duck.js",
+  "exports": {
+    ".": {
+      "import": "./duck.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --watch",
+    "preview": "vite preview"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cipherproxy/duck.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cipherproxy/duck/issues"
+  },
+  "homepage": "https://github.com/cipherproxy/duck#readme",
+  "dependencies": {
+    "@psychedelic/dab-js": "^1.4.6",
+    "cross-fetch": "^3.1.5",
+    "fetch": "^1.1.0"
+  }
+}
