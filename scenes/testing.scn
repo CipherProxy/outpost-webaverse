@@ -56,9 +56,14 @@
     {
       "start_url": "../metaverse_modules/duck/",
       "position": [
-        0.0,
-        0.0,
-        0.0
+        -5,
+        -4,
+        -5
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        0.35
       ]
     }
   ]
