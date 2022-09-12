@@ -1,3 +1,8 @@
+// NOTE **********************************************************************************
+// THIS ENTIRE FILE NEEDS TO BE ANALYIZED AND REVISED TO USE INTERNET COMPUTER AT THE CORE
+// WE NEED TO DETERMINE IF THIS FILE IS NECESSARY AFTER ADAPTING TO THE INTERNET COMPUTER
+// NOTE **********************************************************************************
+
 import * as ethers from 'ethers';
 // window.ethers = ethers;
 

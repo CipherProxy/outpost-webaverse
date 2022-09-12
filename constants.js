@@ -1,3 +1,7 @@
+// NOTE **********************************************************************************
+// THIS ENTIRE FILE NEEDS TO BE ANALYIZED AND REVISED TO USE INTERNET COMPUTER AT THE CORE
+// NOTE **********************************************************************************
+
 export const baseUnit = 4;
 export const previewExt = 'jpg';
 export const maxGrabDistance = 1.5;
@@ -84,7 +88,7 @@ export const inappPreviewHost = _inappPreviewHost;
 
 //
 
-export const storageHost = 'https://ipfs.webaverse.com';
+export const storageHost = 'https://ipfs.webaverse.com'; //CHANGE TO USE IC STORAGE
 export const previewHost = 'https://preview.exokit.org';
 export const worldsHost = 'https://worlds.exokit.org';
 export const accountsHost = `https://${chainName}sidechain-accounts.webaverse.com`;
@@ -168,7 +172,7 @@ export const defaultVoicePackName = `ShiShi voice pack`;
 export const defaultPlayerSpec = {
   name: 'Scillia',
   previewUrl: './images/characters/upstreet/small/scillia.png',
-  avatarUrl: './avatars/scilly_drophunter_v31.7_fuji.vrm',
+  avatarUrl: './avatars/default-female.vrm',
   voice: defaultVoiceEndpoint,
   voicePack: defaultVoicePackName,
   class: 'Drop Hunter',
