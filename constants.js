@@ -1,6 +1,9 @@
-// NOTE **********************************************************************************
-// THIS ENTIRE FILE NEEDS TO BE ANALYIZED AND REVISED TO USE INTERNET COMPUTER AT THE CORE
-// NOTE **********************************************************************************
+// *************************************** NOTE ************************************************
+// *********************************************************************************************
+// ** THIS ENTIRE FILE NEEDS TO BE ANALYIZED AND REVISED TO USE INTERNET COMPUTER AT THE CORE **
+// ** WE NEED TO DETERMINE IF THIS FILE IS NECESSARY AFTER ADAPTING TO THE INTERNET COMPUTER  **
+// *********************************************************************************************
+// *************************************** NOTE ************************************************
 
 export const baseUnit = 4;
 export const previewExt = 'jpg';

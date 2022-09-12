@@ -28,6 +28,7 @@ const moduleUrls = {
   flare: './metaverse_modules/flare/',
   firedrop: './metaverse_modules/firedrop/',
   meshLodItem: './metaverse_modules/mesh-lod-item/',
+  duck: './metaverse_modules/duck/',
 };
 const modules = {};
 let loadPromise = null;

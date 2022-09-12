@@ -1,3 +1,10 @@
+// *************************************** NOTE ************************************************
+// *********************************************************************************************
+// ** THIS ENTIRE FILE NEEDS TO BE ANALYIZED AND REVISED TO USE INTERNET COMPUTER AT THE CORE **
+// ** WE NEED TO DETERMINE IF THIS FILE IS NECESSARY AFTER ADAPTING TO THE INTERNET COMPUTER  **
+// *********************************************************************************************
+// *************************************** NOTE ************************************************
+
 /* eslint-disable camelcase */
 /* eslint-disable no-useless-escape */
 
@@ -18,8 +25,7 @@ export const Tokens = ({userOpen, loginFrom, hacks, address}) => {
     const [nfts, setNfts] = useState(null);
     const [fetchPromises, setFetchPromises] = useState([]);
 
-    //
-
+    // This section needs to be adapted to use Plug Wallet as the main Login Flow
     useEffect( () => {
 
         if ( address && !nfts && loginFrom ) {
@@ -57,7 +63,8 @@ export const Tokens = ({userOpen, loginFrom, hacks, address}) => {
             })();
 
         }
-
+    
+    // This section needs to be adapted to use Plug Wallet as the main Login Flow
     }, [ address, nfts, loginFrom ] );
 
     useEffect( () => {
