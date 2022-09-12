@@ -52,6 +52,8 @@ export const Tokens = ({userOpen, loginFrom, hacks, address}) => {
 
                 }
 
+                //TO DO: If login from Plug
+
             })();
 
         }

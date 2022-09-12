@@ -28,7 +28,7 @@ const dataUrlPrefix = 'data:' + type + ',';
 return '/@proxy/' + dataUrlPrefix + encodeURIComponent(content).replace(/\%/g, '%25')//.replace(/\\//g, '%2F');
 }
 
-//
+// TO DO: Add "getUserTokens" from DAB
 
 const userTokenCharacters = Array(5);
 for (let i = 0; i < userTokenCharacters.length; i++) {
@@ -57,50 +57,50 @@ const characters = {
             // "I'm not saying I don't like boys, but they're just not as interesting as swords."
             detached: true,
         },
-        {
-            name: 'Drake',
-            previewUrl: './images/characters/upstreet/small/drake.png',
-            avatarUrl: './avatars/Drake_hacker_v8_Guilty.vrm',
-            voice: `Shining Armor`,
-            voicePack: `Andrew voice pack`,
-            class: 'Neural Hacker',
-            bio: `His nickname is DRK. 15/M hacker. Loves guns. Likes plotting new hacks. He has the best equipment and is always ready for a fight.`,
-            themeSongUrl: `https://webaverse.github.io/music/themes/129079005-im-gonna-find-it-mystery-sci-f.mp3`,
-            detached: true,
-        },
-        {
-            name: 'Hyacinth',
-            previewUrl: './images/characters/upstreet/small/hyacinth.png',
-            avatarUrl: './avatars/hya_influencer_v2_vian.vrm',
-            voice: `Maud Pie`,
-            voicePack: `Tiffany voice pack`,
-            class: 'Beast Painter',
-            bio: `Scillia's mentor. 15/F beast tamer. She is quite famous. She is known for releasing beasts on her enemies when she get angry.`,
-            themeSongUrl: `https://webaverse.github.io/music/themes/092909594-fun-electro-dance-groove-racin.mp3`,
-            detached: true,
-        },
-        {
-            name: 'Juniper',
-            previewUrl: './images/characters/upstreet/small/juniper.png',
-            avatarUrl: './avatars/jun_engineer_v1_vian.vrm',
-            voice: `Cadance`,
-            voicePack: `Tiffany voice pack`,
-            class: 'Academy Engineer',
-            bio: `She is an engineer. 17/F engineer. She is new on the street. She has a strong moral compass and it the voice of reason in the group.`,
-            themeSongUrl: `https://webaverse.github.io/music/themes/092958842-groovy-jazzy-band-fun-light-su.mp3`,
-            detached: true,
-        },
-        {
-            name: 'Anemone',
-            previewUrl: './images/characters/upstreet/small/anemone.png',
-            avatarUrl: './avatars/ann.vrm',
-            voice: `Trixie`,
-            voicePack: `ShiShi voice pack`,
-            class: 'Lisk Witch',
-            bio: `A witch studying to make the best potions. 13/F. She is exceptionally skilled and sells her potions on the black market, but she is very shy.`,
-            themeSongUrl: `https://webaverse.github.io/music/themes/158618260-ghost-catcher-scary-funny-adve.mp3`,
-            detached: true,
-        },
+        // {
+        //     name: 'Drake',
+        //     previewUrl: './images/characters/upstreet/small/drake.png',
+        //     avatarUrl: './avatars/Drake_hacker_v8_Guilty.vrm',
+        //     voice: `Shining Armor`,
+        //     voicePack: `Andrew voice pack`,
+        //     class: 'Neural Hacker',
+        //     bio: `His nickname is DRK. 15/M hacker. Loves guns. Likes plotting new hacks. He has the best equipment and is always ready for a fight.`,
+        //     themeSongUrl: `https://webaverse.github.io/music/themes/129079005-im-gonna-find-it-mystery-sci-f.mp3`,
+        //     detached: true,
+        // },
+        // {
+        //     name: 'Hyacinth',
+        //     previewUrl: './images/characters/upstreet/small/hyacinth.png',
+        //     avatarUrl: './avatars/hya_influencer_v2_vian.vrm',
+        //     voice: `Maud Pie`,
+        //     voicePack: `Tiffany voice pack`,
+        //     class: 'Beast Painter',
+        //     bio: `Scillia's mentor. 15/F beast tamer. She is quite famous. She is known for releasing beasts on her enemies when she get angry.`,
+        //     themeSongUrl: `https://webaverse.github.io/music/themes/092909594-fun-electro-dance-groove-racin.mp3`,
+        //     detached: true,
+        // },
+        // {
+        //     name: 'Juniper',
+        //     previewUrl: './images/characters/upstreet/small/juniper.png',
+        //     avatarUrl: './avatars/jun_engineer_v1_vian.vrm',
+        //     voice: `Cadance`,
+        //     voicePack: `Tiffany voice pack`,
+        //     class: 'Academy Engineer',
+        //     bio: `She is an engineer. 17/F engineer. She is new on the street. She has a strong moral compass and it the voice of reason in the group.`,
+        //     themeSongUrl: `https://webaverse.github.io/music/themes/092958842-groovy-jazzy-band-fun-light-su.mp3`,
+        //     detached: true,
+        // },
+        // {
+        //     name: 'Anemone',
+        //     previewUrl: './images/characters/upstreet/small/anemone.png',
+        //     avatarUrl: './avatars/ann.vrm',
+        //     voice: `Trixie`,
+        //     voicePack: `ShiShi voice pack`,
+        //     class: 'Lisk Witch',
+        //     bio: `A witch studying to make the best potions. 13/F. She is exceptionally skilled and sells her potions on the black market, but she is very shy.`,
+        //     themeSongUrl: `https://webaverse.github.io/music/themes/158618260-ghost-catcher-scary-funny-adve.mp3`,
+        //     detached: true,
+        // },
     ],
 };
 
@@ -437,7 +437,7 @@ export const CharacterSelect = () => {
                 </div>
                 <div className={styles.section}>
                     <div className={styles.subheading}>
-                        <h2>From Upstreet</h2>
+                        <h2>Default</h2>
                     </div>
                     <ul className={styles.list}>
                         {characters.upstreet.map((character, i) => {

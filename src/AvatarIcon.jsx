@@ -1,15 +1,7 @@
 import React, { useEffect, useRef, useContext, useState } from 'react';
 import classnames from 'classnames';
-
 import { AppContext } from './components/app';
 import {world} from '../world.js';
-import {
-  hp,
-  mp,
-  xp,
-  level,
-} from '../player-stats.js';
-
 import styles from './AvatarIcon.module.css';
 import {PlaceholderImg} from './PlaceholderImg.jsx';
 import { playersManager } from '../players-manager.js';
@@ -75,28 +67,7 @@ const CharacterIcon = () => {
               <div className={styles.meta}>
                   <div className={styles.text}>
                       <div className={styles.background} />
-                      <span className={styles.name}>Anon</span>
-                      <span className={styles.level}>Lv. {level}</span>
-                  </div>
-                  <div className={classnames(styles.stat, styles.hp)}>
-                      <div className={styles.label}>HP</div>
-                      <progress className={styles.progress} value={hp} max={100} />
-                      <div className={styles.value}>{hp}</div>
-                  </div>
-                  <div className={classnames(styles.stat, styles.mp)}>
-                      <div className={styles.label}>MP</div>
-                      <progress className={styles.progress} value={mp} max={100} />
-                      <div className={styles.value}>{mp}</div>
-                  </div>
-                  <div className={classnames(styles.stat, styles.xp)}>
-                      <img className={styles.barImg} src={`./images/xp-bar.svg`} />
-                      <div className={styles.label}>XP</div>
-                      <div className={styles.value}>{xp}</div>
-                      <progress className={styles.progress} value={xp} max={100} />
-                  </div>
-                  <div className={styles.limitBar}>
-                      <div className={styles.inner} />
-                      <div className={styles.label}>Limit</div>
+                      <span className={styles.name}>Outpost Noob</span>
                   </div>
               </div>
           </div>

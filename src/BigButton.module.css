@@ -1,12 +1,12 @@
 @keyframes highlight {
   0% {
-    border-color: #FFF;
+    border-color: rgb(58, 212, 255);
   }
   50% {
-    border-color: #808080;
+    border-color: #007ab7;
   }
   100% {
-    border-color: #808080;
+    border-color: #013779;
   }
 }
 @keyframes highlight2 {
@@ -26,15 +26,15 @@
 .bigButton {
   display: flex;
   margin: 15px 30px;
-  margin-top: auto;
+  /*margin-top: auto;*/
   padding: 10px;
-  border: 2px solid #FFF;
+  border: 2px solid rgb(19, 220, 255);
   font-family: 'GeoSans';
-  font-size: 20px;
+  font-size: 22px;
   justify-content: center;
-  color: #FFF;
+  color: rgb(255, 255, 255);
   cursor: pointer;
-  opacity: 0.3;
+  /*opacity: 0.3;*/
   animation: highlight 1s step-end infinite;
   transition: opacity 0.3s ease-out;
 }

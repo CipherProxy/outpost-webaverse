@@ -39,9 +39,21 @@ export const plugLogin = async () => {
         }
       ],
       [
+        "FBX",
+        {
+          "TextContent": "https://qgh4x-kyaaa-aaaaj-afk5q-cai.raw.ic0.app/0/duck.fbx"
+        }
+      ],
+      [
         "json",
         {
           "TextContent": "{\"Achievement Unlocked\":\"Minted!\"}"
+        }
+      ],
+      [
+        "json",
+        {
+          "TextContent": "{\"License\":\"CC0\"}"
         }
       ]
     ];

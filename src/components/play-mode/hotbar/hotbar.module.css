@@ -1,7 +1,7 @@
 .hotbar {
     position: fixed;
     display: flex;
-    margin-left: 460px;
+    margin-left: 39%;
     bottom: 10px;
     cursor: pointer;
     transform: none;

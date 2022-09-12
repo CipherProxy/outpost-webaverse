@@ -253,7 +253,7 @@ export const User = ({ className, address, setAddress, setLoginFrom }) => {
                         </div>
                         <div className={styles.blade}>
                             <div className={styles.background} />
-                            <div className={styles.text}>ログイン Log in</div>
+                            <div className={styles.text}>Log in</div>
                         </div>
                     </div>
                 </div>

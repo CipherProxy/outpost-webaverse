@@ -25,7 +25,7 @@ const equipmentTabs = [
     `noun-key-1173931.svg`,
     `noun-arc-de-triomphe-4009238.svg`,
 ];
-
+// TO DO: Load equiptment from Plug Wallet using DAB
 const userTokenObjects = []; // Array(2);
 for (let i = 0; i < userTokenObjects.length; i++) {
     userTokenObjects[i] = {
@@ -36,24 +36,24 @@ for (let i = 0; i < userTokenObjects.length; i++) {
 }
 const objects = {
     upstreet: [
-        {
-            name: 'Silsword',
-            start_url: 'https://webaverse.github.io/silsword/',
-            description: 'A sword of great lore.',
-            level: 6,
-        },
-        {
-            name: 'Dragon',
-            start_url: 'https://webaverse.github.io/dragon-mount/',
-            description: 'A cute dragon. But something is wrong with it...',
-            level: 5,
-        },
-        {
-            name: 'Bow',
-            start_url: 'https://webaverse.github.io/bow/',
-            description: 'A nature-themed bow. It seems unbelievably magical for some reason.',
-            level: 9,
-        },
+        // {
+        //     name: 'Silsword',
+        //     start_url: 'https://webaverse.github.io/silsword/',
+        //     description: 'A sword of great lore.',
+        //     level: 6,
+        // },
+        // {
+        //     name: 'Dragon',
+        //     start_url: 'https://webaverse.github.io/dragon-mount/',
+        //     description: 'A cute dragon. But something is wrong with it...',
+        //     level: 5,
+        // },
+        // {
+        //     name: 'Bow',
+        //     start_url: 'https://webaverse.github.io/bow/',
+        //     description: 'A nature-themed bow. It seems unbelievably magical for some reason.',
+        //     level: 9,
+        // },
         /* {
             name: 'Silk',
             start_url: './metaverse_modules/silk/',
