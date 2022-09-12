@@ -297,6 +297,10 @@ export const User = ({ className, address, setAddress, setLoginFrom }) => {
                     {/* <div className={ styles.background } /> */}
                 </div>
                 <div className={ styles.methodBtn } onClick={ metaMaskLogin } onMouseEnter={ _triggerClickSound } >
+                    <img src="images/plug.png" alt="metamask" width="28px" />
+                    <span className={ styles.methodBtnText } >Plug</span>
+                </div>
+                <div className={ styles.methodBtn } onClick={ metaMaskLogin } onMouseEnter={ _triggerClickSound } >
                     <img src="images/metamask.png" alt="metamask" width="28px" />
                     <span className={ styles.methodBtnText } >MetaMask</span>
                 </div>
