@@ -1,0 +1,11 @@
+{
+  "objects": [
+    {
+      "type": "application/light",
+      "content": {
+        "lightType": "ambient",
+        "args": [[255, 255, 255], 1.5]
+      }
+    }
+  ]
+}

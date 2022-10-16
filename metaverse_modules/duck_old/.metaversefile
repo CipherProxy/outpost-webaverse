@@ -1,0 +1,8 @@
+{
+  "name": "duck",
+  "description": "duck",
+  "start_url": "duck.js",
+  "components": {
+    "activate": true
+  }
+}
