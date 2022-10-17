@@ -46,5 +46,11 @@ export const plugLogin = async () => {
       ]
     ];
     const mintResult = await actor.mint(principal, tokenIndex, properties);
-    console.log(result);
+    const formattedResults = Object.keys(mintResult);
+    console.log(formattedResults);
+    if (formattedResults.includes("Ok")) {
+      alert("NFT Minted Successfully");
+    } else {
+      alert("NFT Minting Failed: \nSee your console log (F12) for details.");
+    }
   }

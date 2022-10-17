@@ -51,7 +51,19 @@
       "physics": true,
       "start_url": "https://propialis.github.io/RunwayStage_V1_Guilty.glb",
       "dynamic": false
+    },
+    {
+      "start_url": "../metaverse_modules/duck/",
+      "position": [
+        8,
+        4,
+        0
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        0.35
+      ]
     }
-
   ]
 }
